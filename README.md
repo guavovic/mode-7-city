@@ -19,16 +19,6 @@ O jogo começou em 2024 como um protótipo dos menus e do mapa. Em 2026 ele foi 
 - **Simulação no ritmo do original:** o relógio roda as fases da simulação como o SimCity, com mês e ano a partir de janeiro de 1900.
 - **Arte própria:** toda a arte vai ser refeita num estilo 16 bits próprio, com tiles de 16×16.
 
-## Tecnologias
-
-- **Motor:** Unity 6 (6000.3), C#.
-- **Jogo:** Tilemap, Input System, uGUI e TextMeshPro.
-- **Testes:** Unity Test Framework (NUnit), com testes de arquitetura.
-
-## Código
-
-O código-fonte é privado. Este repositório mostra o jogo e concentra as tarefas: cada issue daqui vira uma entrega no código.
-
 ## Créditos
 
 - **SimCity** é marca da Maxis e da Electronic Arts; a versão de Super Nintendo foi publicada pela Nintendo. Mode 7 City é um projeto independente, sem ligação com elas.
