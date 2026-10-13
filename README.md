@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/icone.svg" alt="" width="120">
+  <img src="assets/icone.svg" alt="" width="160">
 </p>
 
 <h1 align="center">Mode 7 City</h1>
