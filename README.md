@@ -15,6 +15,8 @@
 > [!NOTE]
 > O código do jogo é privado. Aqui ficam a vitrine e as tarefas.
 
+<img src="assets/arte-tela-de-titulo.png" alt="Tela de título: o letreiro MODE 7 CITY sobre uma cidade em Mode 7 que vai até o rio, com o Dr. Wright fazendo joinha e PRESS START no painel do HUD" width="100%">
+
 <img src="assets/simcity-menu-e-mapa.gif" alt="No menu, o contador troca entre os mapas 000 e 003; depois de digitar o nome da cidade, a partida abre com o mapa escolhido e a câmera percorre e afasta o terreno de terra, floresta e água" width="100%">
 
 <sub>A escolha entre os 1.000 mapas, o nome da cidade e o começo da partida.</sub>
@@ -26,6 +28,16 @@
 - **Mapa em dados:** o terreno é uma grade em C# puro, desenhada num Tilemap, e os 12.000 objetos que o mapa criava viraram um.
 - **Regras conferidas por testes:** testes de arquitetura falham se aparecer singleton, busca de objeto por nome, `Resources` ou o input antigo.
 - **Arte própria:** toda a arte vai ser refeita num estilo 16 bits próprio, com tiles de 16×16.
+
+## Artes
+
+Artes de divulgação montadas com os sprites, o HUD e o letreiro do próprio jogo, sobre a cidade do mapa 007. A vista inclinada em Mode 7 é das artes: no jogo ela ainda vai chegar.
+
+<img src="assets/arte-caixa-snes.png" alt="Capa no estilo das caixas de Super Nintendo dos anos 90, com a cidade em Mode 7 no centro e o Dr. Wright apontando" width="100%">
+
+<img src="assets/arte-aparelho-do-menu.png" alt="O aparelho do menu de escolha dos mapas mostrando MODE 7 CITY no visor e a cidade em Mode 7 na tela, ao lado da placa com o menu do jogo" width="100%">
+
+<img src="assets/arte-telas-do-jogo.png" alt="Montagem com a escolha do mapa, a vista em Mode 7 e a partida vista de cima com o HUD, sobre a skyline noturna da tela de título" width="100%">
 
 ## Como está sendo feito
 
