@@ -45,6 +45,12 @@ Artes de divulgação montadas com os sprites, o HUD e o letreiro do próprio jo
 
 <img src="assets/arte-telas-do-jogo.png" alt="Montagem com a escolha do mapa, a vista em Mode 7 e a partida vista de cima com o HUD, sobre a skyline noturna da tela de título" width="100%">
 
+## Tecnologias
+
+- **Jogo:** Unity 6 e C#, com o Input System para teclado e controle.
+- **Arte:** sprites, cenários e HUD desenhados por scripts próprios em Python (Pillow).
+- **Som:** músicas e efeitos sintetizados em Python, no estilo do chip de som do SNES.
+
 ## Direitos
 
 © 2026 guavovic. Todos os direitos reservados.
