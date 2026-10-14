@@ -41,7 +41,7 @@ Artes de divulgação montadas com os sprites, o HUD e o letreiro do próprio jo
 
 ## Como está sendo feito
 
-O jogo começou em 2024 como um protótipo dos menus e do mapa. Em 2026 ele foi reorganizado numa arquitetura própria para jogos Unity, antes de a mecânica da cidade começar, com cada decisão registrada num ADR.
+O jogo começou em 2024 como um protótipo dos menus e do mapa. Em 2026 ele foi reorganizado numa arquitetura própria para jogos Unity, antes de a mecânica da cidade começar, com cada decisão de arquitetura documentada.
 
 - **Migração sem parar o jogo:** o código antigo foi trocado área por área, com o jogo abrindo em todo commit. De 29 violações das regras de arquitetura para zero.
 - **Regras conferidas por testes:** testes de arquitetura varrem o código e falham se aparecer singleton, busca de objeto por nome, `Resources` ou o input antigo.
