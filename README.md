@@ -17,29 +17,7 @@
 > [!NOTE]
 > O código do jogo é privado. Aqui ficam a vitrine, os lançamentos e as tarefas.
 
-<img src="assets/marca-e-titulo.gif" alt="A marca guavovic com o mascote correndo até o g, a abertura com a cidade à noite e APERTE START, e a placa do título com nova cidade, cenários, abrir cidade, tutorial, idioma e créditos" width="100%">
-
-<sub>A marca, a abertura e o título.</sub>
-
-<img src="assets/construir-com-controle.gif" alt="Com o controle, o cursor anda célula a célula: uma rua, cinco zonas residenciais, duas comerciais, duas industriais, a linha de energia e a usina a carvão, enquanto as estações passam do inverno ao outono" width="100%">
-
-<sub>Rua, zonas, linha de energia e usina, só com o controle (no dobro da velocidade).</sub>
-
-<img src="assets/cidade-crescendo.gif" alt="As zonas recebem as primeiras casas, lojas e fábricas e se enchem de prédios ao longo dos anos, com chuva, neve e a troca das estações" width="100%">
-
-<sub>A cidade crescendo, com o clima e as estações do ano.</sub>
-
-<img src="assets/desastre-monstro.gif" alt="O Dr. Wright avisa que um monstro foi visto e, em Tóquio, o monstro atravessa o centro pondo fogo nos quarteirões" width="100%">
-
-<sub>O monstro do cenário de Tóquio.</sub>
-
-<img src="assets/dr-wright-tutorial.gif" alt="O Dr. Wright se apresenta no tutorial, pede para olhar em volta e para escolher a usina a carvão, e a mão do menu aponta para ela no painel de ferramentas" width="100%">
-
-<sub>O Dr. Wright ensinando quem nunca jogou.</sub>
-
-<img src="assets/vista-mode-7.gif" alt="A cidade de Detroit deitada em perspectiva, com céu e nuvens no horizonte, rolando pelos quarteirões nevados até voltar à vista de cima" width="100%">
-
-<sub>A vista VIEW em Mode 7, liberada quando a cidade vira Metrópole.</sub>
+<img src="assets/trailer.gif" alt="Trailer: a marca guavovic e o título, rua e zonas construídas com o controle, a cidade crescendo com as estações, o monstro em Tóquio, o Dr. Wright no tutorial e a cidade de Detroit na vista VIEW em Mode 7" width="100%">
 
 ## Destaques
 
