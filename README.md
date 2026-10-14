@@ -4,34 +4,71 @@
 
 <h1 align="center">Mode 7 City</h1>
 
-<p align="center">City builder em 16 bits feito em Unity, inspirado no <a href="https://pt.wikipedia.org/wiki/SimCity_(jogo_eletr%C3%B4nico_de_1989)">SimCity</a> de Super Nintendo (1991): o menu de escolha dos 1.000 mapas, o nome da cidade e do prefeito e, a partir daí, a cidade. O caminho é primeiro refazer a mecânica do SimCity inteira e, depois, remodelar o jogo com ideias e arte próprias.</p>
+<p align="center">City builder em 16 bits feito em Unity, fiel ao <a href="https://pt.wikipedia.org/wiki/SimCity_(jogo_eletr%C3%B4nico_de_1989)">SimCity</a> de Super Nintendo (1991): os 1.000 mapas, as zonas, a energia, o trânsito, os desastres, os cenários e o Dr. Wright, com arte, música e sons próprios.</p>
 
 <p align="center">
-  <b><a href="https://github.com/users/guavovic/projects/5">Quadro do projeto</a></b>
+  <b><a href="https://github.com/guavovic/mode-7-city/releases">Baixar o jogo</a></b>
+  &nbsp;•&nbsp;
+  <a href="https://github.com/users/guavovic/projects/5">Quadro do projeto</a>
   &nbsp;•&nbsp;
   <a href="https://github.com/guavovic/mode-7-city/issues">Issues</a>
 </p>
 
 > [!NOTE]
-> O código do jogo é privado. Aqui ficam a vitrine e as tarefas.
+> O código do jogo é privado. Aqui ficam a vitrine, os lançamentos e as tarefas.
 
-<img src="assets/arte-tela-de-titulo.png" alt="Tela de título: o letreiro MODE 7 CITY sobre uma cidade em Mode 7 que vai até o rio, com o Dr. Wright fazendo joinha e PRESS START no painel do HUD" width="100%">
+<img src="assets/marca-e-titulo.gif" alt="A marca guavovic com o mascote correndo até o g, a abertura com a cidade à noite e APERTE START, e a placa do título com nova cidade, cenários, abrir cidade, tutorial, idioma e créditos" width="100%">
 
-<img src="assets/simcity-menu-e-mapa.gif" alt="No menu, o contador troca entre os mapas 000 e 003; depois de digitar o nome da cidade, a partida abre com o mapa escolhido e a câmera percorre e afasta o terreno de terra, floresta e água" width="100%">
+<sub>A marca, a abertura e o título.</sub>
 
-<sub>A escolha entre os 1.000 mapas, o nome da cidade e o começo da partida.</sub>
+<img src="assets/construir-com-controle.gif" alt="Com o controle, o cursor anda célula a célula: uma rua, cinco zonas residenciais, duas comerciais, duas industriais, a linha de energia e a usina a carvão, enquanto as estações passam do inverno ao outono" width="100%">
+
+<sub>Rua, zonas, linha de energia e usina, só com o controle (no dobro da velocidade).</sub>
+
+<img src="assets/cidade-crescendo.gif" alt="As zonas recebem as primeiras casas, lojas e fábricas e se enchem de prédios ao longo dos anos, com chuva, neve e a troca das estações" width="100%">
+
+<sub>A cidade crescendo, com o clima e as estações do ano.</sub>
+
+<img src="assets/desastre-monstro.gif" alt="O Dr. Wright avisa que um monstro foi visto e, em Tóquio, o monstro atravessa o centro pondo fogo nos quarteirões" width="100%">
+
+<sub>O monstro do cenário de Tóquio.</sub>
+
+<img src="assets/dr-wright-tutorial.gif" alt="O Dr. Wright se apresenta no tutorial, pede para olhar em volta e para escolher a usina a carvão, e a mão do menu aponta para ela no painel de ferramentas" width="100%">
+
+<sub>O Dr. Wright ensinando quem nunca jogou.</sub>
+
+<img src="assets/vista-mode-7.gif" alt="A cidade de Detroit deitada em perspectiva, com céu e nuvens no horizonte, rolando pelos quarteirões nevados até voltar à vista de cima" width="100%">
+
+<sub>A vista VIEW em Mode 7, liberada quando a cidade vira Metrópole.</sub>
 
 ## Destaques
 
-- **Os 1.000 mapas:** o menu escolhe entre os 1.000 mapas do original, e a partida abre com o mapa escolhido.
-- **Simulação no ritmo do original:** o relógio roda as fases da simulação como o SimCity, com mês e ano a partir de janeiro de 1900.
-- **Mapa em dados:** o terreno é uma grade em C# puro, desenhada num Tilemap, e os 12.000 objetos que o mapa criava viraram um.
-- **Regras conferidas por testes:** testes de arquitetura falham se aparecer singleton, busca de objeto por nome, `Resources` ou o input antigo.
-- **Arte própria:** toda a arte vai ser refeita num estilo 16 bits próprio, com tiles de 16×16.
+- **Os 1.000 mapas:** o menu escolhe entre os 1.000 terrenos do original, e a partida abre no mapa escolhido.
+- **Simulação fiel:** zonas residenciais, comerciais e industriais, energia, trânsito, poluição, crime, valor do terreno, orçamento e avaliação do prefeito, no ritmo do SNES.
+- **Desastres:** fogo, enchente, tornado, terremoto, monstro, queda de avião e derretimento da usina nuclear, pelo menu ou por sorteio.
+- **Cenários:** San Francisco, Bern, Tokyo, Detroit, Boston e Rio de Janeiro, mais Las Vegas e Freeland de bônus.
+- **Presentes:** casa do prefeito, biblioteca, zoológico, Expo, parque de diversões ou cassino e os outros presentes que a cidade ganha ao crescer.
+- **Dr. Wright:** conselheiro, tutorial passo a passo e dicas na primeira vez que algo acontece.
+- **Controle, teclado ou mouse:** os botões do Super Nintendo em qualquer controle, com o nome certo do botão em cada aparelho.
+- **Arte própria em 16 bits:** tudo desenhado por script, na tela de 256 × 224 do SNES ampliada sem borrar, com estações do ano, chuva e neve.
+- **Seis idiomas:** português, inglês, espanhol, francês, italiano e alemão.
+
+## Versões
+
+| Versão | O que traz | Quando |
+|---|---|---|
+| **v1.0** | o SimCity do SNES completo e fiel | feita |
+| v1.0.x | correções depois do lançamento | conforme aparecem |
+| v1.1 | a cidade conversa, a vida de prefeito e extras | novembro de 2026 |
+| v2.0 | a expansão própria do Mode 7 City | janeiro de 2027 |
+
+O jogo para Windows fica na página de [Releases](https://github.com/guavovic/mode-7-city/releases).
 
 ## Artes
 
-Artes de divulgação montadas com os sprites, o HUD e o letreiro do próprio jogo, sobre a cidade do mapa 007. A vista inclinada em Mode 7 é das artes: no jogo ela ainda vai chegar.
+Artes de divulgação montadas com os sprites, o HUD e o letreiro do próprio jogo, sobre a cidade do mapa 007.
+
+<img src="assets/arte-tela-de-titulo.png" alt="Tela de título: o letreiro MODE 7 CITY sobre uma cidade em Mode 7 que vai até o rio, com o Dr. Wright fazendo joinha e PRESS START no painel do HUD" width="100%">
 
 <img src="assets/arte-caixa-snes.png" alt="Capa no estilo das caixas de Super Nintendo dos anos 90, com a cidade em Mode 7 no centro e o Dr. Wright apontando" width="100%">
 
@@ -39,21 +76,16 @@ Artes de divulgação montadas com os sprites, o HUD e o letreiro do próprio jo
 
 <img src="assets/arte-telas-do-jogo.png" alt="Montagem com a escolha do mapa, a vista em Mode 7 e a partida vista de cima com o HUD, sobre a skyline noturna da tela de título" width="100%">
 
-## Como está sendo feito
-
-O jogo começou em 2024 como um protótipo dos menus e do mapa. Em 2026 ele foi reorganizado numa arquitetura própria para jogos Unity, antes de a mecânica da cidade começar, com cada decisão de arquitetura documentada.
-
-- **Migração sem parar o jogo:** o código antigo foi trocado área por área, com o jogo abrindo em todo commit. De 29 violações das regras de arquitetura para zero.
-- **Regras conferidas por testes:** testes de arquitetura varrem o código e falham se aparecer singleton, busca de objeto por nome, `Resources` ou o input antigo.
-- **Uma feature por pasta:** cada parte do jogo tem o próprio assembly e os próprios testes, e as partes se falam por eventos e interfaces.
-- **Mapa em dados:** o terreno é uma grade em C# puro, testada sem cena, desenhada num Tilemap. Os 12.000 objetos que o mapa criava viraram um.
-- **Simulação no ritmo do original:** o relógio roda as fases da simulação como o SimCity, com mês e ano a partir de janeiro de 1900.
-- **Arte própria:** toda a arte vai ser refeita num estilo 16 bits próprio, com tiles de 16×16.
-
 ## Créditos
 
-- **SimCity** é marca da Maxis e da Electronic Arts; a versão de Super Nintendo foi publicada pela Nintendo. Mode 7 City é um projeto independente, sem ligação com elas.
-- Enquanto a arte própria não fica pronta, o jogo usa provisoriamente sprites do original (extraídos por Paper Jorge, via [The Spriters Resource](https://www.spriters-resource.com/)) e os [Micropolis SNES tiles](https://opengameart.org/content/micropolis-snes-tiles) (*Tile set by usr_share, based on the assets from Micropolis*, GPL 3.0).
+- **Jogo:** guavovic.
+- **Os 1.000 terrenos** seguem os mapas do original, a partir da folha de mapas extraída por Paper Jorge ([The Spriters Resource](https://www.spriters-resource.com/)).
+
+## Direitos
+
+© 2026 guavovic. Todos os direitos reservados.
+
+Mode 7 City é um projeto de fã, sem fins lucrativos e sem vínculo com a Nintendo, a Maxis ou a Electronic Arts. SimCity é marca registrada da Electronic Arts. A arte, o código e os sons são próprios; as regras da simulação foram estudadas a partir do Micropolis (GPL), sem copiar código.
 
 ---
 
