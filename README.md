@@ -8,14 +8,7 @@
 
 <p align="center">
   <b><a href="https://github.com/guavovic/mode-7-city/releases">Baixar o jogo</a></b>
-  &nbsp;•&nbsp;
-  <a href="https://github.com/users/guavovic/projects/5">Quadro do projeto</a>
-  &nbsp;•&nbsp;
-  <a href="https://github.com/guavovic/mode-7-city/issues">Issues</a>
 </p>
-
-> [!NOTE]
-> O código do jogo é privado. Aqui ficam a vitrine, os lançamentos e as tarefas.
 
 <img src="assets/trailer.gif" alt="Trailer: a marca guavovic e o título, rua e zonas construídas com o controle, a cidade crescendo com as estações, o monstro em Tóquio, o Dr. Wright no tutorial e a cidade de Detroit na vista VIEW em Mode 7" width="100%">
 
@@ -40,8 +33,6 @@
 | v1.1 | a cidade conversa, a vida de prefeito e extras | novembro de 2026 |
 | v2.0 | a expansão própria do Mode 7 City | janeiro de 2027 |
 
-O jogo para Windows fica na página de [Releases](https://github.com/guavovic/mode-7-city/releases).
-
 ## Artes
 
 Artes de divulgação montadas com os sprites, o HUD e o letreiro do próprio jogo, sobre a cidade do mapa 007.
@@ -53,11 +44,6 @@ Artes de divulgação montadas com os sprites, o HUD e o letreiro do próprio jo
 <img src="assets/arte-aparelho-do-menu.png" alt="O aparelho do menu de escolha dos mapas mostrando MODE 7 CITY no visor e a cidade em Mode 7 na tela, ao lado da placa com o menu do jogo" width="100%">
 
 <img src="assets/arte-telas-do-jogo.png" alt="Montagem com a escolha do mapa, a vista em Mode 7 e a partida vista de cima com o HUD, sobre a skyline noturna da tela de título" width="100%">
-
-## Créditos
-
-- **Jogo:** guavovic.
-- **Os 1.000 terrenos** seguem os mapas do original, a partir da folha de mapas extraída por Paper Jorge ([The Spriters Resource](https://www.spriters-resource.com/)).
 
 ## Direitos
 
