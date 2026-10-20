@@ -1,0 +1,19 @@
+name: Sugestão
+description: Uma ideia pra deixar o jogo melhor.
+labels: ["sugestão"]
+body:
+  - type: textarea
+    id: ideia
+    attributes:
+      label: Qual é a ideia?
+    validations:
+      required: true
+  - type: textarea
+    id: por-que
+    attributes:
+      label: Por que ela deixaria o jogo melhor?
+  - type: textarea
+    id: anexos
+    attributes:
+      label: Imagens ou referências
+      description: Opcional. Prints, desenhos ou outro jogo que faz parecido.
